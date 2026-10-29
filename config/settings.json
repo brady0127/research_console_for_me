@@ -1,0 +1,32 @@
+{
+  "site_url": "https://brady0127.github.io/research_console_for_me/",
+  "contact_email": "",
+
+  "llm": {
+    "model": "claude-opus-5-5",
+    "effort": "low",
+    "fulltext_for_datasets": true,
+    "fulltext_char_budget": 9000
+  },
+
+  "papers": {
+    "arxiv_max_results_per_track": 120,
+    "openalex_max_results_per_track": 80,
+    "openalex_lookback_days": 21,
+    "archive_cap": 1500,
+    "seen_retention_days": 365
+  },
+
+  "news": {
+    "cadence_days": 3,
+    "max_items_per_source": 12,
+    "max_items_for_briefing": 90,
+    "issues_to_keep": 60,
+    "interest_keywords": [
+      "vector database", "vector search", "nearest neighbor", "nearest neighbour",
+      "similarity search", "retrieval", "RAG", "embedding", "embeddings", "database",
+      "machine learning", "large language model", "LLM", "AI", "data science",
+      "benchmark", "dataset", "open source", "funding", "NSF", "peer review", "conference"
+    ]
+  }
+}

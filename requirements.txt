@@ -1,0 +1,4 @@
+anthropic>=2.3.0
+beautifulsoup4>=4.12
+feedparser>=6.0
+requests>=2.31

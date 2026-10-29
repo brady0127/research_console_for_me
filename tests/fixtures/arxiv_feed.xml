@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title type="html">ArXiv Query: search_query=...</title>
+  <id>http://arxiv.org/api/abc</id>
+  <updated>2026-10-29T00:00:00-04:00</updated>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11111v1</id>
+    <updated>2026-10-28T17:59:59Z</updated>
+    <published>2026-10-28T17:59:59Z</published>
+    <title>Scaling Test-Time Compute with
+      Process Reward Models for Mathematical Reasoning</title>
+    <summary>  Large language models struggle with multi-step problems. We propose a process reward model that
+      scores each reasoning step and allocates test-time compute adaptively. Our method improves accuracy on
+      GSM8K and MATH500 by 6.1 points over self-consistency while using 40% fewer samples.
+    </summary>
+    <author><name>Ada Lovelace</name></author>
+    <author><name>Alan Turing</name></author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted at NeurIPS 2026 (Spotlight). Code: https://github.com/x/y</arxiv:comment>
+    <link href="http://arxiv.org/abs/2610.11111v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2610.11111v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.22222v2</id>
+    <updated>2026-10-28T10:00:00Z</updated>
+    <published>2026-10-27T09:00:00Z</published>
+    <title>Chain-of-Thought Faithfulness under Distribution Shift</title>
+    <summary>We study whether chain-of-thought explanations remain faithful under distribution shift. We introduce a new benchmark and find that faithfulness drops sharply.</summary>
+    <author><name>Grace Hopper</name></author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Under review at ICLR 2027</arxiv:comment>
+    <link href="http://arxiv.org/abs/2610.22222v2" rel="alternate" type="text/html"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.33333v1</id>
+    <updated>2026-10-28T08:00:00Z</updated>
+    <published>2026-10-28T08:00:00Z</published>
+    <title>Self-Consistency for Small Models</title>
+    <summary>We revisit self-consistency decoding for small language models.</summary>
+    <author><name>Edsger Dijkstra</name></author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted to the ICML 2026 Workshop on Efficient Reasoning</arxiv:comment>
+    <link href="http://arxiv.org/abs/2610.33333v1" rel="alternate" type="text/html"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.44444v1</id>
+    <updated>2026-10-28T08:00:00Z</updated>
+    <published>2026-10-28T08:00:00Z</published>
+    <title>A Study of Protein Folding Kinetics</title>
+    <summary>We measure folding kinetics of small proteins.</summary>
+    <author><name>Rosalind Franklin</name></author>
+    <link href="http://arxiv.org/abs/2610.44444v1" rel="alternate" type="text/html"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.55555v1</id>
+    <updated>2026-09-01T08:00:00Z</updated>
+    <published>2026-09-01T08:00:00Z</published>
+    <title>An Old Chain-of-Thought Paper</title>
+    <summary>Chain-of-thought prompting, but published two months ago.</summary>
+    <author><name>Old Author</name></author>
+    <link href="http://arxiv.org/abs/2609.55555v1" rel="alternate" type="text/html"/>
+  </entry>
+</feed>

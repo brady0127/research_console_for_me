@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Example Science News</title><link>https://example.org</link>
+<item><title>New large language model benchmark exposes reasoning gaps</title><link>https://example.org/a</link>
+<description>&lt;p&gt;Researchers release a dataset to test LLM reasoning.&lt;/p&gt;</description><pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate></item>
+<item><title>NSF announces new AI institutes funding</title><link>https://example.org/b</link>
+<description>Funding for artificial intelligence research.</description><pubDate>Tue, 27 Oct 2026 09:00:00 GMT</pubDate></item>
+<item><title>Ancient story from last month</title><link>https://example.org/c</link>
+<description>Too old.</description><pubDate>Mon, 01 Sep 2026 09:00:00 GMT</pubDate></item>
+</channel></rss>

@@ -1,0 +1,73 @@
+{
+  "tracks": [
+    {
+      "id": "anns-core",
+      "name": "ANNS: Indexes & Algorithms",
+      "description": "Approximate nearest neighbor search: graph-based indexes, quantization, LSH, maximum inner product search and theory.",
+      "enabled": true,
+      "keywords": [
+        "approximate nearest neighbor",
+        "approximate nearest neighbour",
+        "nearest neighbor search",
+        "nearest neighbour search",
+        "ANNS",
+        "ANN search",
+        "maximum inner product search",
+        "proximity graph",
+        "graph-based index",
+        "HNSW",
+        "DiskANN",
+        "product quantization",
+        "locality-sensitive hashing"
+      ],
+      "exclude": [],
+      "arxiv_categories": ["cs.DB", "cs.IR", "cs.DS", "cs.LG", "cs.CG", "cs.CV", "cs.AI"],
+      "sources": ["arxiv", "openalex"],
+      "include_preprints": true,
+      "min_tier": "T2",
+      "lookback_days": 3,
+      "max_papers": 10
+    },
+    {
+      "id": "vector-search-systems",
+      "name": "Vector Search Systems",
+      "description": "Vector databases and search systems: disk, GPU and distributed indexes, filtered and hybrid queries, updates, and retrieval serving for RAG.",
+      "enabled": true,
+      "keywords": [
+        "vector database",
+        "vector search",
+        "vector similarity search",
+        "vector index",
+        "vector retrieval",
+        "vector data management",
+        "embedding-based retrieval"
+      ],
+      "exclude": [],
+      "arxiv_categories": ["cs.DB", "cs.IR", "cs.DC", "cs.LG", "cs.AR", "cs.PF", "cs.OS"],
+      "sources": ["arxiv", "openalex"],
+      "include_preprints": true,
+      "min_tier": "T2",
+      "lookback_days": 3,
+      "max_papers": 8
+    },
+    {
+      "id": "learning-to-hash",
+      "name": "Learning to Hash",
+      "description": "Learned binary codes for fast retrieval (deep, cross-modal and semantic hashing). Paused by default; enable it if hashing-based ANNS is in scope.",
+      "enabled": false,
+      "keywords": [
+        "learning to hash",
+        "deep hashing",
+        "cross-modal hashing",
+        "semantic hashing"
+      ],
+      "exclude": [],
+      "arxiv_categories": ["cs.CV", "cs.IR", "cs.LG", "cs.MM"],
+      "sources": ["arxiv", "openalex"],
+      "include_preprints": true,
+      "min_tier": "T2",
+      "lookback_days": 3,
+      "max_papers": 6
+    }
+  ]
+}

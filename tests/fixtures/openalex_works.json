@@ -1,0 +1,21 @@
+{"meta": {"count": 3}, "results": [
+ {"id": "https://openalex.org/W100", "doi": "https://doi.org/10.1109/tpami.2026.0001", "title": "Mathematical Reasoning with Verifier-Guided Search",
+  "publication_date": "2026-10-20", "type": "article", "cited_by_count": 2,
+  "authorships": [{"author": {"display_name": "Emmy Noether"}}],
+  "primary_location": {"landing_page_url": "https://ieeexplore.ieee.org/x", "pdf_url": null,
+     "source": {"display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence", "type": "journal"}},
+  "abstract_inverted_index": {"We": [0], "study": [1], "mathematical": [2], "reasoning": [3], "with": [4], "verifiers.": [5]},
+  "ids": {"openalex": "https://openalex.org/W100"}, "open_access": {"oa_url": null}},
+ {"id": "https://openalex.org/W200", "doi": "https://doi.org/10.9999/jas.2026.1", "title": "Mathematical Reasoning in a Predatory Venue",
+  "publication_date": "2026-10-21", "type": "article", "cited_by_count": 0,
+  "authorships": [{"author": {"display_name": "Nobody"}}],
+  "primary_location": {"landing_page_url": "https://example.org", "source": {"display_name": "Journal of Advanced Everything", "type": "journal"}},
+  "abstract_inverted_index": {"Mathematical": [0], "reasoning": [1], "again.": [2]},
+  "ids": {}, "open_access": {}},
+ {"id": "https://openalex.org/W300", "doi": null, "title": "Mathematical Reasoning at ICMLA",
+  "publication_date": "2026-10-22", "type": "article", "cited_by_count": 0,
+  "authorships": [],
+  "primary_location": {"source": {"display_name": "2026 International Conference on Machine Learning and Applications (ICMLA)", "type": "conference"}},
+  "abstract_inverted_index": {"Mathematical": [0], "reasoning": [1], "at": [2], "ICMLA.": [3]},
+  "ids": {}, "open_access": {}}
+]}
