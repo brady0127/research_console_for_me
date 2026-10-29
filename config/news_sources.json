@@ -1,0 +1,29 @@
+{
+  "categories": [
+    "Science News",
+    "AI & Data Science",
+    "Industry Labs",
+    "Academic Labs",
+    "Community & Policy"
+  ],
+  "sources": [
+    {"id": "nature", "name": "Nature", "category": "Science News", "url": "https://www.nature.com/nature.rss", "weight": 1.3},
+    {"id": "science-news", "name": "Science News (AAAS)", "category": "Science News", "url": "https://www.science.org/rss/news_current.xml", "weight": 1.3},
+    {"id": "quanta", "name": "Quanta Magazine", "category": "Science News", "url": "https://www.quantamagazine.org/feed/", "weight": 1.1},
+    {"id": "nature-mi", "name": "Nature Machine Intelligence", "category": "AI & Data Science", "url": "https://www.nature.com/natmachintell.rss", "weight": 1.3},
+    {"id": "mit-tr-ai", "name": "MIT Technology Review (AI)", "category": "AI & Data Science", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "weight": 1.0},
+    {"id": "ieee-spectrum-ai", "name": "IEEE Spectrum (AI)", "category": "AI & Data Science", "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "weight": 1.0},
+    {"id": "sciencedaily-ai", "name": "ScienceDaily (AI)", "category": "AI & Data Science", "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml", "weight": 0.8},
+    {"id": "the-gradient", "name": "The Gradient", "category": "AI & Data Science", "url": "https://thegradient.pub/rss/", "weight": 0.9},
+    {"id": "google-research", "name": "Google Research", "category": "Industry Labs", "url": "https://research.google/blog/rss/", "weight": 1.1},
+    {"id": "deepmind", "name": "Google DeepMind", "category": "Industry Labs", "url": "https://deepmind.google/blog/rss.xml", "weight": 1.1},
+    {"id": "openai", "name": "OpenAI", "category": "Industry Labs", "url": "https://openai.com/news/rss.xml", "weight": 1.0},
+    {"id": "msr", "name": "Microsoft Research", "category": "Industry Labs", "url": "https://www.microsoft.com/en-us/research/feed/", "weight": 1.0},
+    {"id": "huggingface", "name": "Hugging Face", "category": "Industry Labs", "url": "https://huggingface.co/blog/feed.xml", "weight": 0.9},
+    {"id": "bair", "name": "Berkeley AI Research", "category": "Academic Labs", "url": "https://bair.berkeley.edu/blog/feed.xml", "weight": 1.1},
+    {"id": "sail", "name": "Stanford AI Lab", "category": "Academic Labs", "url": "https://ai.stanford.edu/blog/feed.xml", "weight": 1.1},
+    {"id": "mit-news-ai", "name": "MIT News (AI)", "category": "Academic Labs", "url": "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml", "weight": 1.0},
+    {"id": "retraction-watch", "name": "Retraction Watch", "category": "Community & Policy", "url": "https://retractionwatch.com/feed/", "weight": 1.0},
+    {"id": "nsf", "name": "U.S. NSF News", "category": "Community & Policy", "url": "https://www.nsf.gov/rss/rss_www_news.xml", "weight": 0.9}
+  ]
+}

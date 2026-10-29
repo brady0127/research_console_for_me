@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.tmp
+# Generated at deploy time from config/ (see .github/workflows/deploy.yml)
+site/data/config/

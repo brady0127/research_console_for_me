@@ -1,0 +1,67 @@
+{
+  "tracks": [
+    {
+      "id": "llm-reasoning",
+      "name": "LLM Reasoning",
+      "description": "Reasoning, planning and test-time compute in large language models.",
+      "enabled": true,
+      "keywords": [
+        "chain-of-thought",
+        "test-time compute",
+        "reasoning model",
+        "mathematical reasoning",
+        "process reward model",
+        "self-consistency"
+      ],
+      "exclude": ["survey"],
+      "arxiv_categories": ["cs.CL", "cs.LG", "cs.AI"],
+      "sources": ["arxiv", "openalex"],
+      "include_preprints": true,
+      "min_tier": "T2",
+      "lookback_days": 3,
+      "max_papers": 8
+    },
+    {
+      "id": "graph-learning",
+      "name": "Graph Learning",
+      "description": "Graph neural networks, graph foundation models and relational learning.",
+      "enabled": true,
+      "keywords": [
+        "graph neural network",
+        "graph transformer",
+        "graph foundation model",
+        "message passing",
+        "link prediction",
+        "node classification"
+      ],
+      "exclude": [],
+      "arxiv_categories": ["cs.LG", "cs.SI", "stat.ML"],
+      "sources": ["arxiv", "openalex"],
+      "include_preprints": true,
+      "min_tier": "T2",
+      "lookback_days": 3,
+      "max_papers": 6
+    },
+    {
+      "id": "data-centric-ai",
+      "name": "Data-Centric AI",
+      "description": "Data quality, data selection, synthetic data and dataset curation for ML.",
+      "enabled": true,
+      "keywords": [
+        "data selection",
+        "data curation",
+        "synthetic data",
+        "data quality",
+        "data attribution",
+        "dataset distillation"
+      ],
+      "exclude": [],
+      "arxiv_categories": ["cs.LG", "cs.DB", "cs.CL"],
+      "sources": ["arxiv", "openalex"],
+      "include_preprints": true,
+      "min_tier": "T2",
+      "lookback_days": 3,
+      "max_papers": 6
+    }
+  ]
+}
