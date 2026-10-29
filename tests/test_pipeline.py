@@ -94,6 +94,11 @@ def resolver():
          "T1", "published", "ICML 2023"),
         ("Accepted at KDD 2026", None, "T1", "accepted", "KDD 2026"),
         ("Accepted at PAKDD 2026", None, "T3", "accepted", "PAKDD 2026"),
+        ("Accepted to SIGMOD 2027", None, "T1", "accepted", "SIGMOD 2027"),
+        ("PVLDB 2026", None, "T1", "accepted", "VLDB 2026"),
+        ("Accepted at SoCG 2026", None, "T2", "accepted", "SoCG 2026"),
+        ("Accepted by DASFAA 2026", None, "T2", "accepted", "DASFAA 2026"),
+        ("Accepted at SISAP 2026", None, "T3", "accepted", "SISAP 2026"),
     ],
 )
 def test_arxiv_venue(resolver, comment, journal_ref, tier, status, label):
@@ -311,3 +316,58 @@ def test_claude_engine_request_shape(monkeypatch):
                                      "format": {"type": "json_schema", "schema": PAPER_SCHEMA}}
     assert "Experiments text" in body["messages"][0]["content"]
     assert result["datasets"] == ["GSM8K"] and result["engine"] == "claude:claude-opus-5-5"
+
+
+# --------------------------------------------------------------------------- #
+# Shipped configuration
+# --------------------------------------------------------------------------- #
+def test_tracks_config_is_valid():
+    """Guards edits made by hand or from the web UI."""
+    import re
+
+    tracks = load_config("tracks.json")["tracks"]
+    ids = [t["id"] for t in tracks]
+    assert len(ids) == len(set(ids))
+    for t in tracks:
+        assert re.fullmatch(r"[a-z0-9][a-z0-9-]*", t["id"]), t["id"]
+        assert t["name"] and t["keywords"] and all(isinstance(k, str) and k.strip() for k in t["keywords"])
+        assert t["min_tier"] in {"T1", "T2", "T3", "any"}
+        assert set(t["sources"]) <= {"arxiv", "openalex"} and t["sources"]
+        assert 1 <= t["lookback_days"] <= 30 and 1 <= t["max_papers"] <= 50
+        assert all(re.fullmatch(r"[a-z-]+(\.[A-Za-z-]+)?", c) for c in t["arxiv_categories"])
+
+
+ANNS = {t["id"]: t for t in load_config("tracks.json")["tracks"]}
+
+
+@pytest.mark.parametrize(
+    "track_id, title, expected",
+    [
+        ("anns-core", "Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical "
+                      "Navigable Small World Graphs", True),
+        ("anns-core", "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node", True),
+        ("anns-core", "SPANN: Highly-efficient Billion-scale Approximate Nearest Neighborhood Search", True),
+        ("anns-core", "Product Quantization for Nearest Neighbor Search", True),
+        ("anns-core", "RaBitQ: Quantizing High-Dimensional Vectors with a Theoretical Error Bound for "
+                      "Approximate Nearest Neighbor Search", True),
+        ("anns-core", "Graph-Based Indexes for Filtered Queries", True),
+        ("anns-core", "k-Nearest Neighbor Classifiers for Tabular Data", False),
+        ("anns-core", "Annual Review of Graph Neural Networks", False),
+        ("anns-core", "Vector-Quantized Diffusion Models for Image Synthesis", False),
+        ("vector-search-systems", "Milvus: A Purpose-Built Vector Data Management System", True),
+        ("vector-search-systems", "Filtered Vector Search with Range Predicates on GPUs", True),
+        ("vector-search-systems", "Embedding-Based Retrieval in Facebook Search", True),
+        ("vector-search-systems", "Support Vector Machines for Text Classification", False),
+    ],
+)
+def test_anns_keyword_precision(track_id, title, expected):
+    assert bool(papers.keyword_hits(ANNS[track_id]["keywords"], title)) is expected
+
+
+def test_anns_arxiv_query_is_well_formed():
+    t = ANNS["anns-core"]
+    query = arxiv.build_query(t["keywords"], t["arxiv_categories"], t["exclude"])
+    assert query.count("(") == query.count(")")
+    assert '(ti:"approximate nearest neighbor" OR abs:"approximate nearest neighbor")' in query
+    assert "(ti:HNSW OR abs:HNSW)" in query and "cat:cs.CG" in query
+    assert len(query) < 2000  # stays well inside URL limits

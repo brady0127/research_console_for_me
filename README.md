@@ -120,6 +120,22 @@ tests/             offline tests with fixtures
 .github/workflows/ update (daily pipeline), deploy (Pages), tests
 ```
 
+## Private repository
+
+GitHub Pages can publish from a private repository only on GitHub Pro, Team or Enterprise
+(Pro is free for students via the [GitHub Student Developer Pack](https://education.github.com/pack)).
+The published site itself is always reachable by anyone with the URL. Choices:
+
+* **Pro / Education:** keep the repository private and follow the setup above.
+* **Make the repository public:** it contains only code and public bibliographic data; secrets
+  and your GitHub token never enter it.
+* **No Pages:** add the repository *variable* `DEPLOY_PAGES` = `false` (*Settings → Secrets and
+  variables → Actions → Variables*). The daily pipeline and push notifications keep working; view
+  the console locally with `git pull && python -m console serve`.
+
+Private repositories also consume GitHub Actions minutes (2,000/month on Free); a daily run takes
+roughly 5-15 minutes.
+
 ## Notes
 
 * GitHub Pages sites are public even when they are not indexed (`noindex` is set). The site holds

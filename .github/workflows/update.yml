@@ -78,6 +78,9 @@ jobs:
 
   deploy:
     needs: update
+    # Set the repository variable DEPLOY_PAGES=false to run without GitHub Pages
+    # (e.g. a private repository on the Free plan); push notifications still work.
+    if: vars.DEPLOY_PAGES != 'false'
     permissions:
       contents: read
       pages: write

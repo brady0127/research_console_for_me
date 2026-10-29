@@ -23,9 +23,10 @@
     "max_items_for_briefing": 90,
     "issues_to_keep": 60,
     "interest_keywords": [
-      "machine learning", "deep learning", "large language model", "LLM",
-      "data science", "AI", "artificial intelligence", "reasoning", "benchmark",
-      "dataset", "open source", "funding", "NSF", "NIH", "peer review", "conference"
+      "vector database", "vector search", "nearest neighbor", "nearest neighbour",
+      "similarity search", "retrieval", "RAG", "embedding", "embeddings", "database",
+      "machine learning", "large language model", "LLM", "AI", "data science",
+      "benchmark", "dataset", "open source", "funding", "NSF", "peer review", "conference"
     ]
   }
 }
