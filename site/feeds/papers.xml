@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://brady0127.github.io/research_console_for_me/feeds/papers.xml</id>
+  <title>Research Console - Papers</title>
+  <link href="https://brady0127.github.io/research_console_for_me/"/>
+  <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
+  <updated>2026-10-30T07:43:04Z</updated>
+  <entry>
+    <id>arxiv:2610.37176</id>
+    <title>Lossless Compression of Proximity Graph Indexes for Efficient Approximate Nearest Neighbors Search</title>
+    <link href="https://arxiv.org/abs/2610.37176"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[T2] CIKM 2026&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Graph-based Approximate Nearest Neighbor (ANN) indexes, such as HNSW, are the backbone of modern vector search.&lt;/p&gt;&lt;p&gt;Graph-based Approximate Nearest Neighbor (ANN) indexes, such as HNSW, are the backbone of modern vector search. However, their massive memory footprint creates a severe infrastructure bottleneck. While vector quantization is widely adopted to reduce the memory required to store data vectors, the graph's edge structure increasingly dominates total memory usage.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;In this paper, we present a compression technique explicitly tailored for live HNSW routing.&lt;/li&gt;&lt;li&gt;Evaluated across diverse real-world workloads, we significantly outperform the current state of the art in both compression ratio and query latency.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; Information Retrieval&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.38133</id>
+    <title>On Worst-Case Guarantees for Graph-Based Nearest-Neighbor Search</title>
+    <link href="https://arxiv.org/abs/2610.38133"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Graph-based nearest neighbor search algorithms like HNSW, DiskANN, NSG, and others have surged in popularity in recent years due to their excellent empirical performance in comparison to space-partitioning methods like…&lt;/p&gt;&lt;p&gt;Graph-based nearest neighbor search algorithms like HNSW, DiskANN, NSG, and others have surged in popularity in recent years due to their excellent empirical performance in comparison to space-partitioning methods like IVF data structures and Locality Sensitive Hashing (LSH). However, in contrast to LSH and related methods, obtaining strong worst-case theoretical guarantees for graph-based search has proven challenging. In this paper, we prove a strong lower bound that helps explain the lack of progress towards such guarantees.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;In this paper, we prove a strong lower bound that helps explain the lack of progress towards such guarantees.&lt;/li&gt;&lt;li&gt;We show that no standard graph-based method (any that runs a variant of greedy search on a flat or hierarchical graph) can achieve sublinear query time for approximate nearest neighbor search in Euclidean space, even for an arbitrarily large approximation…&lt;/li&gt;&lt;li&gt;On the other hand, we prove that sublinear query time is possible if we allow for Steiner points in the search graph.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.38205</id>
+    <title>Fast Sparse $α$-Navigable Graph Construction with Improved Resource Augmentation</title>
+    <link href="https://arxiv.org/abs/2610.38205"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[T1] SODA 2027&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Graph-based nearest neighbor search methods, which run greedy search on a directed graph over the data points, have surged in popularity in recent years.&lt;/p&gt;&lt;p&gt;Graph-based nearest neighbor search methods, which run greedy search on a directed graph over the data points, have surged in popularity in recent years. A common goal is to construct a search graph with the $α$-navigability property, which ensures that greedy search returns provably good approximate nearest neighbors and converges in few iterations. Increasing $α\geq 1$ improves accuracy and convergence rate, but requires more edges, which increases both space and search time.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Increasing $α\geq 1$ improves accuracy and convergence rate, but requires more edges, which increases both space and search time.&lt;/li&gt;&lt;li&gt;For any point set and any distance function, we show how to compute an $α$-navigable graph with at most $O(\log n)$ times as many edges as the sparsest $(1+\varepsilon)α$-navigable graph, in $O(n^ω\log(Δ)/\varepsilon)$ time, where $ω&amp;lt; 2.372$ is the matrix…&lt;/li&gt;&lt;li&gt;This improves on Khanna, Padaki, and Waingarten (SODA 2026), who achieve the same runtime but are only competitive with the sparsest $2(1+\varepsilon)α$-navigable graph.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.37256</id>
+    <title>Fast Approximate Line Nearest Neighbor Search</title>
+    <link href="https://arxiv.org/abs/2610.37256"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Approximate nearest neighbor (ANN) search, which retrieves vectors close to a given query vector, is a fundamental operation in vector databases.&lt;/p&gt;&lt;p&gt;Approximate nearest neighbor (ANN) search, which retrieves vectors close to a given query vector, is a fundamental operation in vector databases. However, emerging applications, such as selecting source images for photo-based animation and video synthesis, may require matching content while allowing a query-specified aspect contrast, such as an illumination change, to vary; a single query point does not directly express this requirement. In this paper, we study approximate line nearest neighbor (LANN) search, where an infinite query line removes the distance contribution along a specified direction while database records remain points.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;To address these issues, we propose LinePG, which enhances an existing proximity graph with pair edges to facilitate navigation between separated near-line regions.&lt;/li&gt;&lt;li&gt;To find these pair edges efficiently, we first generate region pairs with spatial or graph separation, and near a line.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7223559175</id>
+    <title>RAG-Based MCA AI Agent for Document-Grounded College Information Assistance Using Retrieval-Augmented Generation, Vector Search and a Locally Hosted Large Language Model</title>
+    <link href="https://doi.org/10.5281/zenodo.23640352"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; This paper presents the design and implementation of a Retrieval-Augmented Generation (RAG)-based MCA AI Agent for document-grounded question answering over college and student policy documents.&lt;/p&gt;&lt;p&gt;This paper presents the design and implementation of a Retrieval-Augmented Generation (RAG)-based MCA AI Agent for document-grounded question answering over college and student policy documents. The system uses PyMuPDF for PDF text extraction, approximately 1000-character chunks, Nomic-Embed-Text for generating 768-dimensional embeddings, and Pinecone for semantic vector search. At query time, the system retrieves the three most relevant document chunks and provides them as context to Llama 3.2 running locally through Ollama.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A controlled quantitative evaluation has not yet been completed, and no numerical accuracy improvement is claimed.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7223337940</id>
+    <title>VecForge: A Local-First Hybrid Vector Database with Persistent Agent Memory and Order-Preserving Grover-Inspired Reranking</title>
+    <link href="https://doi.org/10.5281/zenodo.23594276"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Retrieval-augmented applications and AI assistants need a vector store that runs inside the user's own process, keeps data encrypted on disk, combines semantic and keyword retrieval, and remembers information across…&lt;/p&gt;&lt;p&gt;Retrieval-augmented applications and AI assistants need a vector store that runs inside the user's own process, keeps data encrypted on disk, combines semantic and keyword retrieval, and remembers information across conversations. This paper presents VecForge 2.0, an embedded Python vector database built for these needs. One SQLite file, optionally encrypted with SQLCipher, holds documents, vectors, metadata, access keys, agent sessions and index snapshots.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This paper presents VecForge 2.0, an embedded Python vector database built for these needs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; SciFact&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7223104138</id>
+    <title>Retrieval Is the New Record System: A Retrospective Analysis of Open-Source Contributions to Vector Databases and Embedding Infrastructure Underpinning Clinical AI (2025-2026)</title>
+    <link href="https://doi.org/10.5281/zenodo.23549143"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Background.&lt;/p&gt;&lt;p&gt;Background. Retrieval-augmented generation (RAG) sits inside many clinical artificial intelligence (AI) prototypes. A language model answers from documents a retrieval layer selects first.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A language model answers from documents a retrieval layer selects first.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.38404</id>
+    <title>CoWalk: Cooperative Walks for Agentic Batch Queries on Disk-Resident Graphs</title>
+    <link href="https://arxiv.org/abs/2610.38404"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Workloads such as query rewriting, deep research and group-relative policy optimization (GRPO) issue batches of semantically related vector queries.&lt;/p&gt;&lt;p&gt;Workloads such as query rewriting, deep research and group-relative policy optimization (GRPO) issue batches of semantically related vector queries. Existing disk-resident approximate nearest neighbor (ANN) systems process these queries independently. On three workloads, 31 to 67 percent of the I/Os of a batch fetch a page that another query of the batch has already fetched.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present CoWalk, which runs the queries of a batch as cooperating walks on one thread.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7224092066</id>
+    <title>Family Four: Self-verifying vector and GPU retrieval substrate: Same data, same result, verifiable at every step: every index proves it was built from the database it serves.</title>
+    <link href="https://doi.org/10.5281/zenodo.23735137"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Same data, same result, verifiable at every step: every index proves it was built from the database it serves..&lt;/p&gt;&lt;p&gt;Same data, same result, verifiable at every step: every index proves it was built from the database it serves.. Methods and Systems for a Self-Verifying Deterministic Vector Index and GPU Retrieval Substrate Materialized From a Relational System of Record. U.S.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Methods and Systems for a Self-Verifying Deterministic Vector Index and GPU Retrieval Substrate Materialized From a Relational System of Record.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7224116120</id>
+    <title>Adaptive Digital Consciousness: An Evolutionary Framework for Human Identity Preservation Using Large Language Models</title>
+    <link href="https://doi.org/10.5281/zenodo.23724963"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Generative Artificial Intelligence (GenAI) and Large Language Models (LLMs) have greatly changed the interaction between man and machines through natural-language reasoning, content generation, personalization, and…&lt;/p&gt;&lt;p&gt;Generative Artificial Intelligence (GenAI) and Large Language Models (LLMs) have greatly changed the interaction between man and machines through natural-language reasoning, content generation, personalization, and interaction via agents. However, traditional LLM applications do not provide a unified mechanism for maintaining a long-term, structured, and identity-consistent representation of a person during long-time interaction. As shown in the recent studies of generative agents, long-term LLM memory, agentic memory, lifelong learning, and AI self-identity, these processes present essential capabilities that have been studied as separate components.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;However, traditional LLM applications do not provide a unified mechanism for maintaining a long-term, structured, and identity-consistent representation of a person during long-time interaction.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.37728</id>
+    <title>Beyond Similarity Search: Knowledge Graph Metadata Enrichment for Enterprise Retrieval-Augmented Generation</title>
+    <link href="https://arxiv.org/abs/2610.37728"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; A key challenge of RAG systems is retrieving information from enterprise documents created by multiple teams over time, where it is not possible to enrich the information using the latest information and metadata…&lt;/p&gt;&lt;p&gt;A key challenge of RAG systems is retrieving information from enterprise documents created by multiple teams over time, where it is not possible to enrich the information using the latest information and metadata available outside the scope of organizational documentation responsibility. We investigated whether using a knowledge graph to store metadata and frequently changing information would improve upon knowledge retrieval over similarity search over embeddings. To perform the experiment, we created a snapshot of the SEC EDGAR dataset for a quarter, comprising 167,050 filings from 10,511 companies and 508,714 embedded chunks of risk-factor text.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We investigated whether using a knowledge graph to store metadata and frequently changing information would improve upon knowledge retrieval over similarity search over embeddings.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; SEC EDGAR&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7223980221</id>
+    <title>ExtenGen: A Lightweight Shared Memory Layer for AI Coding Agents</title>
+    <link href="https://doi.org/10.5281/zenodo.23696923"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Modern software teams increasingly rely on AI coding agents such as Claude Code, Cursor, and Codex to write, review, and debug source code.&lt;/p&gt;&lt;p&gt;Modern software teams increasingly rely on AI coding agents such as Claude Code, Cursor, and Codex to write, review, and debug source code. However, each agent session begins without knowledge of earlier sessions, so that decisions, architectural context, and institutional knowledge distributed across GitHub issues, pull requests, and chat threads are not carried forward. Developers consequently re-explain the same background repeatedly, which consumes time and tokens and produces inconsistent answers across team members.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;However, each agent session begins without knowledge of earlier sessions, so that decisions, architectural context, and institutional knowledge distributed across GitHub issues, pull requests, and chat threads are not carried forward.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.36298</id>
+    <title>Spiking Neural Networks Are Harder to Steal: A Benchmark Study of Model Stealing Attacks</title>
+    <link href="https://arxiv.org/abs/2610.36298"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Machine learning models deployed behind query interfaces expose more than their predictions, because an adversary can use those predictions to rebuild the model itself.&lt;/p&gt;&lt;p&gt;Machine learning models deployed behind query interfaces expose more than their predictions, because an adversary can use those predictions to rebuild the model itself. Model stealing attacks (MSAs) exploit this exposure by training a surrogate model that replicates the decision behavior of a target through black-box queries alone, without access to its parameters or training data. These attacks are well characterized for conventional artificial neural networks (ANNs), yet spiking neural networks (SNNs) process information in a fundamentally different way.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Model stealing attacks (MSAs) exploit this exposure by training a surrogate model that replicates the decision behavior of a target through black-box queries alone, without access to its parameters or training data.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; CIFAR-10, Fashion-MNIST&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7223566720</id>
+    <title>Cumulative Memory Sizing and Asymmetric Latency Dynamics in Local Retrieval-Augmented Generation Pipelines (2026)</title>
+    <link href="https://doi.org/10.5281/zenodo.23642920"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; This systems engineering paper models end-to-end memory allocation and pipeline execution latency in air-gapped, on-premises Retrieval-Augmented Generation (RAG) architectures.&lt;/p&gt;&lt;p&gt;This systems engineering paper models end-to-end memory allocation and pipeline execution latency in air-gapped, on-premises Retrieval-Augmented Generation (RAG) architectures. A persistent operational bottleneck in local AI deployment is isolating generator LLM capacity while neglecting the cumulative VRAM demands of concurrent neural pipeline components. Key research investigations include: Quantitative memory footprint modeling across dense multi-lingual embedding models (BAAI/bge-m3, Nomic Embed v1.5) and high-precision cross-encoder rerankers (bge-reranker-large) co-existing in GPU VRAM.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A persistent operational bottleneck in local AI deployment is isolating generator LLM capacity while neglecting the cumulative VRAM demands of concurrent neural pipeline components.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7223686300</id>
+    <title>Embeddings: The Map Without a Cartographer</title>
+    <link href="https://doi.org/10.5281/zenodo.23647189"/>
+    <updated>2026-10-30T07:42:53Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; The essay starts from Antisthenes, the Socratic who rejected definitions and held that to know what a thing is one must place it among others, and follows that intuition up to embeddings: vectors that place linguistic…&lt;/p&gt;&lt;p&gt;The essay starts from Antisthenes, the Socratic who rejected definitions and held that to know what a thing is one must place it among others, and follows that intuition up to embeddings: vectors that place linguistic units in a mathematical space learned from their uses. It explains the embedding matrix, the distributional analysis of Harris and Firth, word2vec and cosine similarity, the analogy king minus man plus woman landing near queen, the Leibnizian dream of a characteristica universalis, latent semantic analysis, GloVe, ELMo and BERT, the attention that redraws the map sentence by sentence, Sentence-BERT and CLIP, vector search and RAG systems. It closes with the strangest part: nobody drew this map or decided in advance what each axis means, the geometry appeared as a result of training, and a map excellent for navigating language may not tell us where the borders that matter in the world are.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;It explains the embedding matrix, the distributional analysis of Harris and Firth, word2vec and cosine similarity, the analogy king minus man plus woman landing near queen, the Leibnizian dream of a characteristica universalis, latent semantic analysis…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+</feed>
