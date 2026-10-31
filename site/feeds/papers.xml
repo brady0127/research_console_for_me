@@ -4,7 +4,42 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-10-30T07:43:04Z</updated>
+  <updated>2026-10-31T07:28:36Z</updated>
+  <entry>
+    <id>openalex:W7224155641</id>
+    <title>CAREERPILOT AI</title>
+    <link href="https://doi.org/10.5281/zenodo.23760253"/>
+    <updated>2026-10-31T07:28:31Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; The increasing competition in the employment market has created significant challenges for students and job seekers in preparing effective resumes, identifying relevant skills, and performing effectively in interviews.&lt;/p&gt;&lt;p&gt;The increasing competition in the employment market has created significant challenges for students and job seekers in preparing effective resumes, identifying relevant skills, and performing effectively in interviews. Existing career-support systems commonly address individual tasks such as resume screening, job recommendation, or interview preparation, while providing limited integration and personalization. This paper proposes CareerPilot AI, an intelligent career assistance system that integrates resume analysis, Applicant Tracking System evaluation, job-description matching, skill-gap identification, AI-based mock interviews, response evaluation, and personalized learning-roadmap generation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Existing career-support systems commonly address individual tasks such as resume screening, job recommendation, or interview preparation, while providing limited integration and personalization.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7224499446</id>
+    <title>An Explainable Multi-Agent System for Real-Time SMS Smishing Detection with LangGraph Orchestration</title>
+    <link href="https://doi.org/10.5281/zenodo.23760241"/>
+    <updated>2026-10-31T07:28:31Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; SMS has become a target for cyberattacks.&lt;/p&gt;&lt;p&gt;SMS has become a target for cyberattacks. Users may get one-time passwords, transaction notifications, banking alerts and other service announcements.These messages can be quite familiar, urgent, making it difficult to determine fake messages, putting users at risk of being victims of smishing. Once successful, information and authentication credentials can be stolen from victims.Current defenses are typically designed with static rules or individual AI models.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;To solve these problems we introduce ScamShield AI.&lt;/li&gt;&lt;li&gt;The system first cleans messages and creates semantic embeddings for similarity-based threat detection.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7223461089</id>
+    <title>Databricks Context Engineer Associate Certification Guide - Syllabus, Sample Questions and Study Plan</title>
+    <link href="https://doi.org/10.5281/zenodo.23614221"/>
+    <updated>2026-10-31T07:28:31Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; A complete certification guide for the Databricks Certified Context Engineer Associate exam, prepared by CertFun and checked against Databricks' own exam page and its exam guide for the version live from July 29, 2026.&lt;/p&gt;&lt;p&gt;A complete certification guide for the Databricks Certified Context Engineer Associate exam, prepared by CertFun and checked against Databricks' own exam page and its exam guide for the version live from July 29, 2026. Covers the exam fact sheet (45 scored questions, 90 minutes, USD 200, online or test center, valid 2 years, 70% passing score per the CertFun syllabus), all seven exam sections with Databricks' published weightings - Foundations of Context Engineering 16%, System Prompt and Instruction Design 9%, Knowledge Retrieval and Genie Configuration 20%, Memory Architecture with Lakebase and MLflow 18%, Tool Design, MCP, and Agent Context 13%, Context Compression and Compaction 11% and Multi-Agent and Long-Horizon Task Design 13% - and every one of the 45 objectives, what moved between the June 2026 Summit beta and the live exam (90 to 45 items, Vector Search renamed AI Search, four reworded objectives), a five-step route to exam day, and ten scenario sample questions with a full answer key.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Covers the exam fact sheet (45 scored questions, 90 minutes, USD 200, online or test center, valid 2 years, 70% passing score per the CertFun syllabus), all seven exam sections with Databricks' published weightings - Foundations of Context Engineering 16%…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7223466202</id>
+    <title>Agentic AI-Based Indian Legal Notice and Complaint Understanding with Source-Grounded Next-Step Guidance</title>
+    <link href="https://doi.org/10.5281/zenodo.23619688"/>
+    <updated>2026-10-31T07:28:31Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; This paper proposes an Agentic AI-based architecture for understanding Indian legal notices and complaints using Retrieval-Augmented Generation (RAG) and Explainable AI (XAI).&lt;/p&gt;&lt;p&gt;This paper proposes an Agentic AI-based architecture for understanding Indian legal notices and complaints using Retrieval-Augmented Generation (RAG) and Explainable AI (XAI). The proposed system aims to help ordinary citizens understand complex legal documents by extracting key information, identifying relevant legal provisions, and providing source-grounded explanations and next-step guidance. The architecture consists of an Orchestrator Agent and six specialized agents: Document Analysis, Legal Research, Summarization, Explainability, Next-Step Guidance, and Validation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The proposed system aims to help ordinary citizens understand complex legal documents by extracting key information, identifying relevant legal provisions, and providing source-grounded explanations and next-step guidance.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7213502997</id>
+    <title>A Managed Database-as-a-Service Platform for Scientific Computing</title>
+    <link href="https://doi.org/10.5281/zenodo.22804650"/>
+    <updated>2026-10-31T07:28:31Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Scientific computing at HPC facilities increasingly relies on database infrastructure across a growing range of workloads: vector search and retrieval-augmented generation (RAG), structured analytics, and AI-driven…&lt;/p&gt;&lt;p&gt;Scientific computing at HPC facilities increasingly relies on database infrastructure across a growing range of workloads: vector search and retrieval-augmented generation (RAG), structured analytics, and AI-driven knowledge discovery over community corpora spanning documentation, experimental datasets, simulation outputs, and literature collections. These corpora are inherently shared facility resources, serving researchers, facility support staff, and AI agents across projects and institutions. Yet the supporting infrastructure remains built per project: each team provisions, configures, and operates its own database instance, with no facility-level registry, no shared identity layer, and no uniform interface for discovering or accessing the databases hosted across the facility.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;These corpora are inherently shared facility resources, serving researchers, facility support staff, and AI agents across projects and institutions.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2610.37176</id>
     <title>Lossless Compression of Proximity Graph Indexes for Efficient Approximate Nearest Neighbors Search</title>
