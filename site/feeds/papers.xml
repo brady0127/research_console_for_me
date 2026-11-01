@@ -4,7 +4,21 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-10-31T07:28:36Z</updated>
+  <updated>2026-11-01T08:06:03Z</updated>
+  <entry>
+    <id>openalex:W7224741850</id>
+    <title>A Provenance-Aware Framework for Cross-Modal Knowledge Discovery from Text, Images, and Audio-Visual Dialogue</title>
+    <link href="https://doi.org/10.5281/zenodo.23804707"/>
+    <updated>2026-11-01T08:05:58Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; A large share of institutional and educational knowledge is not stored as clean digital text but is embedded in scanned documents, photographed whiteboards, signage, and recorded human dialogue such as lectures…&lt;/p&gt;&lt;p&gt;A large share of institutional and educational knowledge is not stored as clean digital text but is embedded in scanned documents, photographed whiteboards, signage, and recorded human dialogue such as lectures, interviews, and meetings. Classical Knowledge Discovery in Databases (KDD) and text-mining pipelines do not extend directly to this material, and independent single-modality pipelines cannot recognize that a fact appearing in both an image and a spoken utterance is one fact rather than two. This paper presents a provenance-aware framework for knowledge discovery from text, images, and audio-visual dialogue.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Classical Knowledge Discovery in Databases (KDD) and text-mining pipelines do not extend directly to this material, and independent single-modality pipelines cannot recognize that a fact appearing in both an image and a spoken utterance is one fact rather…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7224769100</id>
+    <title>UFDR Agent: An AI-Driven Framework for Automated Analysis of Universal Forensic Extraction Device Reports in Digital Forensic Investigations</title>
+    <link href="https://doi.org/10.5281/zenodo.23808866"/>
+    <updated>2026-11-01T08:05:58Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Universal Forensic Extraction Device Report (UFDR) files generated from seized smartphones and computers routinely contain gigabytes to multiple terabytes of chats, call logs, images, videos and metadata, and manually…&lt;/p&gt;&lt;p&gt;Universal Forensic Extraction Device Report (UFDR) files generated from seized smartphones and computers routinely contain gigabytes to multiple terabytes of chats, call logs, images, videos and metadata, and manually reviewing this volume of evidence can take investigators weeks per device. This paper presents UFDR Agent, an AI-based analysis platform designed to automate the ingestion, structuring and querying of UFDR data using a combination of natural-language processing, computer vision and vector-similarity search. The system parses heterogeneous UFDR exports into a canonical relational schema, applies large-language-model-based intent detection to translate an investigator’s questions into structured queries, and uses vision-language and face-detection models to caption, tag and embed image evidence (and, prospectively, video) for semantic retrieval.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This paper presents UFDR Agent, an AI-based analysis platform designed to automate the ingestion, structuring and querying of UFDR data using a combination of natural-language processing, computer vision and vector-similarity search.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>openalex:W7224155641</id>
     <title>CAREERPILOT AI</title>
