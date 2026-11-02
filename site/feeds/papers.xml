@@ -4,7 +4,56 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-01T08:06:03Z</updated>
+  <updated>2026-11-02T08:13:52Z</updated>
+  <entry>
+    <id>arxiv:2610.42075</id>
+    <title>Implicit Additively Weighted Geodesic Voronoi Diagrams and Applications</title>
+    <link href="https://arxiv.org/abs/2610.42075"/>
+    <updated>2026-11-02T08:13:44Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[T1] SODA 2027&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Let $P$ be a simple polygon with $m$ vertices.&lt;/p&gt;&lt;p&gt;Let $P$ be a simple polygon with $m$ vertices. After $O(m)$-time preprocessing of $P$, for any set $S$ of $n$ additively weighted point sites, we compute an implicit additively weighted geodesic Voronoi diagram in $O(n\log n+n\log^2 m)$ time, supporting nearest-neighbor queries in $O(\log(n+m))$ time. In contrast, explicitly constructing the diagram requires $Ω(m)$ time.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Our algorithm introduces a new sweep-line paradigm that avoids explicitly constructing the diagram, together with a novel technique for point location in implicit subdivisions.&lt;/li&gt;&lt;li&gt;As applications, we obtain new dynamic data structures for additively weighted geodesic nearest-neighbor searching and the first efficient algorithms for shortest paths in geodesic disk graphs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.41407</id>
+    <title>Fidelity Synopses: Pre-Execution Plan Selection for Approximate Vector Search</title>
+    <link href="https://arxiv.org/abs/2610.41407"/>
+    <updated>2026-11-02T08:13:44Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Vector search has become a database operator with many physical implementations: different index families, build-time and search-time parameters, and compressed or disk-resident variants.&lt;/p&gt;&lt;p&gt;Vector search has become a database operator with many physical implementations: different index families, build-time and search-time parameters, and compressed or disk-resident variants. Each trades cost against fidelity, the fraction of a query's exact top-k nearest neighbors that a configuration returns. Deployments nevertheless choose one configuration offline and use it for every query, so they are sized for their hardest queries and overpay for the rest.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Relational optimizers solve the analogous problem for cardinality with offline synopses; we propose one for vector search.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; LAION&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7224996467</id>
+    <title>Lifelong Memory Architectures for Large Language Model Based Generative AI Systems: A Survey and Comparative Analysis</title>
+    <link href="https://doi.org/10.5281/zenodo.23839242"/>
+    <updated>2026-11-02T08:13:44Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Large Language Models (LLMs) form the basis of multiple generative applications today, but these systems are mostly stateless which means that information keeps outside the context window disappears when the session is…&lt;/p&gt;&lt;p&gt;Large Language Models (LLMs) form the basis of multiple generative applications today, but these systems are mostly stateless which means that information keeps outside the context window disappears when the session is closed. Such limitations complicate personalization, make it difficult to maintain consistency over long interactions, and prevent the AI system from learning from its experience. Lifelong memory architectures address this problem by providing the LLM with an external, permanent memory that also includes means of information writing, retrieval, updating, consolidating, and forgetting without the need to retrain the model itself.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Such limitations complicate personalization, make it difficult to maintain consistency over long interactions, and prevent the AI system from learning from its experience.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7224998998</id>
+    <title>Autonomous Multi-Facet Repository Comprehension Using Hierarchical Retrieval and Cascading Multi-LLM Routing</title>
+    <link href="https://doi.org/10.5281/zenodo.23831116"/>
+    <updated>2026-11-02T08:13:44Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Joining unfamiliar software projects forces developers to spend days deciphering complex codebases, API routes, and runtime flows.&lt;/p&gt;&lt;p&gt;Joining unfamiliar software projects forces developers to spend days deciphering complex codebases, API routes, and runtime flows. Standard Retrieval-Augmented Generation (RAG) pipelines should help, but they break down on source code in practice. New engineers rarely know what specific questions to ask, and standard chunking blindly slices code mid-function.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;To solve these issues without manual intervention, we present RepoInsight, an end-to-end system that automatically generates an 11-facet architectural report directly from a GitHub repository URL without requiring human queries.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7225016470</id>
+    <title>DEVELOPMENT OF A DIGITAL INFORMATION SYSTEM BASED ON HYBRID SEARCH FOR ASSESSING THE CONSTRUCTION CONDITION OF BUILDINGS</title>
+    <link href="https://doi.org/10.5281/zenodo.23837052"/>
+    <updated>2026-11-02T08:13:44Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Abstract.&lt;/p&gt;&lt;p&gt;Abstract. The paper proposes a digital information system that automates the assessment of whether the construction condition of multi-storey buildings complies with current regulatory documents. The system is based on a formal model that links the stages from the building under inspection to the expert’s decision.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The paper proposes a digital information system that automates the assessment of whether the construction condition of multi-storey buildings complies with current regulatory documents.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.41521</id>
+    <title>KITE: Retrieval as a Decision Procedure for Long-Term Conversational Memory</title>
+    <link href="https://arxiv.org/abs/2610.41521"/>
+    <updated>2026-11-02T08:13:44Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Many long-term memory systems for LLM agents are built around embedding-based retrieval.&lt;/p&gt;&lt;p&gt;Many long-term memory systems for LLM agents are built around embedding-based retrieval. Al- though effective for semantic matching, similarity ranking alone does not establish whether re- trieved memories satisfy the conditions implied by a question. In this paper, we introduce KITE (Knowledge-Indexed Temporal Evidence), a vector-free framework that formulates memory re- trieval as an explicit decision procedure.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;In this paper, we introduce KITE (Knowledge-Indexed Temporal Evidence), a vector-free framework that formulates memory re- trieval as an explicit decision procedure.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; LongMemEval-S&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2610.41172</id>
+    <title>Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses</title>
+    <link href="https://arxiv.org/abs/2610.41172"/>
+    <updated>2026-11-02T08:13:44Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Retrieval-augmented generation is becoming agentic.&lt;/p&gt;&lt;p&gt;Retrieval-augmented generation is becoming agentic. A search harness writes queries, reads results, reformulates, and decides when to stop. This largely solves accuracy: a harness with only BM25/grep and MiniMax M3 answers 85% of BrowseComp-Plus and 91% on multi-hop FRAMES in our runs, without compiled or vector indexes.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A search harness writes queries, reads results, reformulates, and decides when to stop.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; FRAMES&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>openalex:W7224741850</id>
     <title>A Provenance-Aware Framework for Cross-Modal Knowledge Discovery from Text, Images, and Audio-Visual Dialogue</title>
