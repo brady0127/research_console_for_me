@@ -4,7 +4,49 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-02T08:13:52Z</updated>
+  <updated>2026-11-03T08:32:13Z</updated>
+  <entry>
+    <id>arxiv:2611.03415</id>
+    <title>O2N2: Efficient Doubly Oblivious Approximate Nearest Neighbor Search</title>
+    <link href="https://arxiv.org/abs/2611.03415"/>
+    <updated>2026-11-03T08:32:03Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Privacy-preserving approximate nearest neighbor (ANN) search allows clients to search from an untrusted server without revealing sensitive queries, and is useful in scenarios like medical diagnostics and credit scoring.&lt;/p&gt;&lt;p&gt;Privacy-preserving approximate nearest neighbor (ANN) search allows clients to search from an untrusted server without revealing sensitive queries, and is useful in scenarios like medical diagnostics and credit scoring. Among the various privacy-preserving primitives, trusted execution environments (TEEs) have much lower overhead than heavy cryptographic ones, yet they leak memory access patterns, enabling adversaries to infer query contents. Oblivious RAM (ORAM) can be used to hide those access patterns at $\mathrm{O}(\log N)$ asymptotic cost, but existing high-performance ANN search algorithms (e.g., IVF or HNSW) exhibit complex, data-dependent access patterns that are unfriendly for ORAM.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We introduce O2N2, a doubly oblivious ANN framework built around single-path search in randomly rotated $k$-d tree forests.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; Given&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.01514</id>
+    <title>Federated Vector Retrieval across Heterogeneous VectorDBs</title>
+    <link href="https://arxiv.org/abs/2611.01514"/>
+    <updated>2026-11-03T08:32:03Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[T1] VLDB 2027&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Vector databases are now core infrastructure for AI retrieval systems, yet many real deployments must serve queries over multiple independently constructed vectorDBs built with different embedding models.&lt;/p&gt;&lt;p&gt;Vector databases are now core infrastructure for AI retrieval systems, yet many real deployments must serve queries over multiple independently constructed vectorDBs built with different embedding models. This creates a systems problem of federated retrieval over heterogeneous vectorDBs: vectors and similarity scores are not directly comparable across embedding spaces, while fully resolving this incompatibility through corpus-wide re-embedding and re-indexing is often operationally prohibitive. Existing methods therefore face a difficult trade-off between retrieval quality, construction cost, and query throughput.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present HVMap, a lightweight compatibility layer for federated retrieval across heterogeneous vectorDBs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; LLM-generated IR, Because, Dataset The, BEIR&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.02765</id>
+    <title>Recast: Refinement-Centered Approximate Nearest Neighbor Search Optimized for Storage</title>
+    <link href="https://arxiv.org/abs/2611.02765"/>
+    <updated>2026-11-03T08:32:03Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Large-scale ANNS systems often exploit storage in addition to DRAM for supporting vector search.&lt;/p&gt;&lt;p&gt;Large-scale ANNS systems often exploit storage in addition to DRAM for supporting vector search. The central question is how to divide the work between memory and storage for achieving both high query throughput-recall and good index maintenance performance. Existing storage-optimized ANNS paradigms fall short of providing a complete answer: disk-resident graph indexes have difficulty in supporting efficient vector deletions, while posting-list systems often incur more disk I/Os for queries.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;In this paper, we introduce a refinement-centered paradigm for storage-optimized ANNS systems.&lt;/li&gt;&lt;li&gt;We propose Recast as a concrete design of this paradigm.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.02556</id>
+    <title>OctEx: Billion-Scale Vector Search by Precomputed Lattice Neighbor Lists on GPUs</title>
+    <link href="https://arxiv.org/abs/2611.02556"/>
+    <updated>2026-11-03T08:32:03Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Approximate nearest-neighbor search on GPUs serves retrieval-augmented generation, recommendation, and deduplication over datasets of up to billions of vectors.&lt;/p&gt;&lt;p&gt;Approximate nearest-neighbor search on GPUs serves retrieval-augmented generation, recommendation, and deduplication over datasets of up to billions of vectors. The fastest GPU indexes at high recall, such as CAGRA, walk proximity graphs in chained rounds, each of which waits for the distances of the previous one. High recall therefore costs many dependent rounds per query.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;On four H100 GPUs at recall 0.95 to 0.995, OctEx outperforms CAGRA by 2.0x to 46.4x on seven datasets of up to one hundred million vectors, and by 1.46x to 2.05x on the one billion vectors of Deep1B and SIFT1B, whose indexes it builds in 44 to 47 minutes.&lt;/li&gt;&lt;li&gt;OctEx also outperforms GGNN, PathWeaver, FlowANN, and the cuVS inverted file indexes IVF-PQ and IVF-RaBitQ by 5.4x to 343x.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; ImageNet, All, Its&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.02237</id>
+    <title>Nonreciprocal Spherical Attention and Retrieval: Sharp Coarsening Clocks and Certified Score Correction</title>
+    <link href="https://arxiv.org/abs/2611.02237"/>
+    <updated>2026-11-03T08:32:03Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; We develop nonreciprocal spherical attention as a mathematical framework for coarsening and compressed nearest-neighbor retrieval.&lt;/p&gt;&lt;p&gt;We develop nonreciprocal spherical attention as a mathematical framework for coarsening and compressed nearest-neighbor retrieval. For two shrinking acute blocks whose centers have zero skew pairing and whose total mass ratio is subexponential in inverse temperature, we prove $\lim_{β\to\infty}β^{-1}\log T_β=1-\cosφ$, without restricting particle-count growth. An explicit three-body flow has two rigorously separated metastable exponents.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;For two shrinking acute blocks whose centers have zero skew pairing and whose total mass ratio is subexponential in inverse temperature, we prove $\lim_{β\to\infty}β^{-1}\log T_β=1-\cosφ$, without restricting particle-count growth.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; ANN-Benchmarks&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.00786</id>
+    <title>The Tangled Web They Weave: Exploring Neural Representations with Directed Simplicial Complexes</title>
+    <link href="https://arxiv.org/abs/2611.00786"/>
+    <updated>2026-11-03T08:32:03Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Understanding how artificial neural networks (ANNs) represent and combine features internally is a central challenge in mechanistic interpretability.&lt;/p&gt;&lt;p&gt;Understanding how artificial neural networks (ANNs) represent and combine features internally is a central challenge in mechanistic interpretability. Existing neural circuit-discovery methods represent neuron interactions as pairwise edges in a graph. But distributed neural representations consist of large groups of neurons that are inherently linked by higher-order causal dependencies: suppressing a subgroup of neurons in concert may shift the activation of other neurons in the feature representation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We propose a method to construct filtered directed simplicial complexes (DSCs) that give a topological representation of such dependencies, built from the activation profiles of an ANN on a given set of inputs.&lt;/li&gt;&lt;li&gt;Our approach treats ANNs as structural causal models and uses counterfactual ablations to test for causal links between groups of internal neurons within specific input contexts.&lt;/li&gt;&lt;li&gt;As validation, we compare our method with graph-based circuit-discovery baselines and find that their 1-skeletons agree within the relations that a weight graph can represent.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2610.42075</id>
     <title>Implicit Additively Weighted Geodesic Voronoi Diagrams and Applications</title>
