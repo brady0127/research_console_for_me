@@ -4,7 +4,14 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-03T08:32:13Z</updated>
+  <updated>2026-11-04T07:58:22Z</updated>
+  <entry>
+    <id>arxiv:2611.03927</id>
+    <title>Modular and Efficient Approximate Nearest Neighbors Search with Vectorium and kANNolo</title>
+    <link href="https://arxiv.org/abs/2611.03927"/>
+    <updated>2026-11-04T07:58:18Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Approximate Nearest Neighbors (ANN) search over neural embeddings powers modern retrieval systems such as Retrieval-Augmented Generation.&lt;/p&gt;&lt;p&gt;Approximate Nearest Neighbors (ANN) search over neural embeddings powers modern retrieval systems such as Retrieval-Augmented Generation. Embeddings come in three representations (dense, sparse and multi-vector), and efficient search combines an index structure, a similarity function and a quantization scheme. Existing libraries fix one combination, hard-code each one separately, or factor only one side of the problem, and none covers all three representations.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present Vectorium and kANNolo, two open-source Rust libraries that split this design space into a data-management layer and an indexing layer.&lt;/li&gt;&lt;li&gt;On top of it, kANNolo implements Hierarchical Navigable Small-World (HNSW) graph and Inverted Vector File (IVF) indexes that are generic over representation, encoder and metric, and a two-stage index that composes any first-stage index with any rescoring…&lt;/li&gt;&lt;li&gt;Since every combination is specialized at compile time, this modularity adds no run-time overhead, and the resulting indexes reach state-of-the-art performance: our Product Quantization matches Faiss in accuracy at competitive speed, our RaBitQ and HNSW match…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; Natural Questions, Ms Marco-v1&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2611.03415</id>
     <title>O2N2: Efficient Doubly Oblivious Approximate Nearest Neighbor Search</title>
