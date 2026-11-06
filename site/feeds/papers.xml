@@ -4,7 +4,49 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-05T08:32:03Z</updated>
+  <updated>2026-11-06T08:28:34Z</updated>
+  <entry>
+    <id>arxiv:2611.07579</id>
+    <title>Per-Query Recall Guarantees for Approximate Nearest Neighbor Search in Dynamic Vector Databases</title>
+    <link href="https://arxiv.org/abs/2611.07579"/>
+    <updated>2026-11-06T08:28:27Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Vector search runs as an operator in database systems, where a missed neighbor can make a filter, join, or aggregate wrong, yet approximate nearest neighbor (ANN) indexes are tuned only for an average recall target.&lt;/p&gt;&lt;p&gt;Vector search runs as an operator in database systems, where a missed neighbor can make a filter, join, or aggregate wrong, yet approximate nearest neighbor (ANN) indexes are tuned only for an average recall target. In our measurements, indexes tuned to an average recall of 0.99 left 5-19% of in-distribution queries and, tuned without a query log, up to 99.6% of real out-of-distribution queries below this target, and the misses grew under updates. We present PQR-Search, a k-ANN search method that guarantees $\Pr[\mathrm{Recall}(q)&amp;lt;τ]\leδ$ for every query.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present PQR-Search, a k-ANN search method that guarantees $\Pr[\mathrm{Recall}(q)&amp;lt;τ]\leδ$ for every query.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; On 20&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.08306</id>
+    <title>GINGER: Spicing Up Graph-Based Vector Search</title>
+    <link href="https://arxiv.org/abs/2611.08306"/>
+    <updated>2026-11-06T08:28:27Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; We present \textsc{Ginger}, a state-of-the-art open-source C++ library for graph-based approximate nearest neighbor search (ANNS).&lt;/p&gt;&lt;p&gt;We present \textsc{Ginger}, a state-of-the-art open-source C++ library for graph-based approximate nearest neighbor search (ANNS). We developed \textsc{Ginger} at Google to push the speed and memory efficiency of graph search on large and high-dimensional embedding datasets. \textsc{Ginger} surpasses existing ANNS libraries with regards to query throughput and indexing time while matching the memory footprint of the most space-efficient competitors. \textsc{Ginger} builds upon recent advances in proximity graph construction (PiPNN) and vector quantization (TurboQuant). We introduce Nested TurboQuant (NTQ), a two-level quantizer which supports low precision graph navigation and high precision reranking in a single code.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We developed \textsc{Ginger} at Google to push the speed and memory efficiency of graph search on large and high-dimensional embedding datasets. \textsc{Ginger} surpasses existing ANNS libraries with regards to query throughput and indexing time while…&lt;/li&gt;&lt;li&gt;We introduce Nested TurboQuant (NTQ), a two-level quantizer which supports low precision graph navigation and high precision reranking in a single code.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; ANNS&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.07603</id>
+    <title>Sharp Limits of Graph-Based Nearest Neighbor Search on the Sphere</title>
+    <link href="https://arxiv.org/abs/2611.07603"/>
+    <updated>2026-11-06T08:28:27Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; We study the degree needed for greedy graph search to find the exact nearest neighbor from every starting point on graphs of $n$ independent data points on the unit sphere in $\mathbb R^d$.&lt;/p&gt;&lt;p&gt;We study the degree needed for greedy graph search to find the exact nearest neighbor from every starting point on graphs of $n$ independent data points on the unit sphere in $\mathbb R^d$. For uniform data, we determine an explicit sublinear degree threshold when $d$ is proportional to $\log n$, and the threshold $2^{d/2+o(d)}$ in the dense regime $\sqrt{\log n}\ll d\ll\log n$. Above these thresholds by fixed exponent gaps, the nearest-neighbor graph succeeds from every entry for most uniform queries with high probability, with evaluation cost on the same exponential scale as its degree.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;For uniform data, we determine an explicit sublinear degree threshold when $d$ is proportional to $\log n$, and the threshold $2^{d/2+o(d)}$ in the dense regime $\sqrt{\log n}\ll d\ll\log n$.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.07971</id>
+    <title>ArcadeDB in Python: An In-Process Multi-Model Database</title>
+    <link href="https://arxiv.org/abs/2611.07971"/>
+    <updated>2026-11-06T08:28:27Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[NR] Proceedings of the 25th Python in Science Conference (SciPy 2026)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Some Python workflows need transactional reads and writes over documents, traversals over a graph, and similarity search over vector embeddings.&lt;/p&gt;&lt;p&gt;Some Python workflows need transactional reads and writes over documents, traversals over a graph, and similarity search over vector embeddings. In practice these are split across separate systems (a document store, a graph engine, and a vector index), and the data is copied between them and kept consistent by application code. ArcadeDB is an open-source multi-model database engine, written in Java, that supports all three access patterns and can be embedded in a host process.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present arcadedb-embedded, a Python package that runs ArcadeDB inside the Python process via JPype, using a Java Runtime Environment bundled in the wheel.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; We&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7225142722</id>
+    <title>A Local-First AI/ML Intelligence Layer for Retrieval-Augmented Generation in a Spring Boot Application</title>
+    <link href="https://doi.org/10.5281/zenodo.23908287"/>
+    <updated>2026-11-06T08:28:27Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Large language models (LLMs) exhibit strong generative capability but suffer from hallucination, stale knowledge, and an inability to cite sources.&lt;/p&gt;&lt;p&gt;Large language models (LLMs) exhibit strong generative capability but suffer from hallucination, stale knowledge, and an inability to cite sources. Retrieval-Augmented Generation (RAG) mitigates these weaknesses by grounding responses in externally retrieved documents. This paper presents the design and implementation of an AI/ML intelligence layer that integrates RAG into an existing Spring Boot / Kotlin application with minimal new infrastructure.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We describe the layered architecture, the ingestion and query pipelines, the data model, tenant-scoped security, and deployment topology, and we discuss the scalability and quality trade-offs of the local-first approach.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7225198895</id>
+    <title>Automated Resume Screening System</title>
+    <link href="https://doi.org/10.5281/zenodo.23906476"/>
+    <updated>2026-11-06T08:28:27Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; - Many automated applicant-screening tools depend on word overlap, so they cannot see that two differently phrased resumes may describe the same expertise, and they return scores that neither recruiters nor candidates…&lt;/p&gt;&lt;p&gt;- Many automated applicant-screening tools depend on word overlap, so they cannot see that two differently phrased resumes may describe the same expertise, and they return scores that neither recruiters nor candidates are able to examine. This paper presents an open-source, explainable hybrid framework for resume screening that runs on ordinary CPUs. Uploaded PDF, DOCX or plain-text files are cleaned and parsed, extracted skills are converted to standard labels, and a lightweight sentence encoder places the resume and the job posting in one shared 384-dimensional vector space.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This paper presents an open-source, explainable hybrid framework for resume screening that runs on ordinary CPUs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2611.05690</id>
     <title>Turbocharging PiPNN for Proximity and $k$-NN Graph Building</title>
