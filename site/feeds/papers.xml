@@ -4,7 +4,21 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-08T07:55:44Z</updated>
+  <updated>2026-11-09T08:40:36Z</updated>
+  <entry>
+    <id>arxiv:2611.09040</id>
+    <title>MV-IVF: Multi-Vector Retrieval via Multi-Vector Clustering</title>
+    <link href="https://arxiv.org/abs/2611.09040"/>
+    <updated>2026-11-09T08:38:52Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Multi-vector retrieval represents each query and document as a set of embeddings and scores relevance via fine-grained set-to-set interactions such as MaxSim (Chamfer similarity).&lt;/p&gt;&lt;p&gt;Multi-vector retrieval represents each query and document as a set of embeddings and scores relevance via fine-grained set-to-set interactions such as MaxSim (Chamfer similarity). This expressiveness improves retrieval quality over single-vector representations, but makes search substantially more expensive. Existing systems address this challenge primarily through proxy representations or filter-and-rerank pipelines that reduce candidate generation to single-vector search.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This expressiveness improves retrieval quality over single-vector representations, but makes search substantially more expensive.&lt;/li&gt;&lt;li&gt;We introduce MV-IVF, an inverted-file index for multi-vector retrieval built on MV-Lloyd, a new Lloyd-style algorithm for clustering point clouds under a Chamfer objective.&lt;/li&gt;&lt;li&gt;At query time, MV-IVF performs best-first beam search over the tree to identify promising leaf clusters, then scores the documents in those leaves.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; LoTTE, MS MARCO&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7225462935</id>
+    <title>Mitigating Hallucinations in Large Language Models Using Retrieval-Augmented Generation and Knowledge Graphs: A Review</title>
+    <link href="https://doi.org/10.5281/zenodo.24037456"/>
+    <updated>2026-11-09T08:38:52Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Large Language Models (LLMs) can produce fluent but factually incorrect statements, known as hallucinations, which limits their reliability in healthcare, law, education and other critical domains.&lt;/p&gt;&lt;p&gt;Large Language Models (LLMs) can produce fluent but factually incorrect statements, known as hallucinations, which limits their reliability in healthcare, law, education and other critical domains. This paper reviews methods that reduce hallucination by grounding generation in external knowledge. Retrieval-Augmented Generation (RAG) retrieves relevant passages at query time and conditions the model on them, while Knowledge Graphs (KGs) provide structured, verifiable facts and explicit relations that support multi-hop reasoning.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This paper reviews methods that reduce hallucination by grounding generation in external knowledge.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2611.07579</id>
     <title>Per-Query Recall Guarantees for Approximate Nearest Neighbor Search in Dynamic Vector Databases</title>
