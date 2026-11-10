@@ -4,7 +4,49 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-09T08:40:36Z</updated>
+  <updated>2026-11-10T08:48:59Z</updated>
+  <entry>
+    <id>arxiv:2611.12539</id>
+    <title>Dynamic Graph Indexing for Label-Filtered Approximate Nearest Neighbor Search</title>
+    <link href="https://arxiv.org/abs/2611.12539"/>
+    <updated>2026-11-10T08:48:52Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[T1] SIGMOD 2027&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Approximate nearest neighbor search (ANNS) over high-dimensional vectors is a core primitive in modern retrieval systems.&lt;/p&gt;&lt;p&gt;Approximate nearest neighbor search (ANNS) over high-dimensional vectors is a core primitive in modern retrieval systems. In practice, objects are often also associated with labels (e.g., attributes or keywords), and retrieval must combine vector similarity with explicit label-based filtering, giving rise to label-filtered ANNS. This task is challenging because label filtering and ANNS favor very different index structures, selective filters fragment the admissible search space, and updates complicate index maintenance.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;To address these challenges, we propose DYLAN, a dynamic composite index for label-filtered ANNS supporting containment, overlap, and their conjunctions and disjunctions.&lt;/li&gt;&lt;li&gt;Extensive experiments with real data show that DYLAN consistently improves query throughput at comparable recall, by up to two orders of magnitude on challenging label-rich datasets, while retaining competitive memory, construction, and update costs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; Yelp, ANNS, On, YTB-Video, For, LAION1M&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.12426</id>
+    <title>dNaViT: Discrete Codes are General-Purpose Visual Representations</title>
+    <link href="https://arxiv.org/abs/2611.12426"/>
+    <updated>2026-11-10T08:48:52Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models.&lt;/p&gt;&lt;p&gt;Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richness of the visual world?&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present dNaViT, a Discrete Native-resolution Vision Transformer that produces discrete visual primitives analogous to language tokens.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; ImageNet&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.11717</id>
+    <title>Autonomous Continual Learning and Knowledge Transfer via Cortex-Inspired Neural Assemblies</title>
+    <link href="https://arxiv.org/abs/2611.11717"/>
+    <updated>2026-11-10T08:48:52Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Unlike the brain, artificial neural networks (ANNs) suffer from "catastrophic forgetting": complete overwriting of solutions when re-training on new functions ("concept shift") or on a disjoint domain of the current…&lt;/p&gt;&lt;p&gt;Unlike the brain, artificial neural networks (ANNs) suffer from "catastrophic forgetting": complete overwriting of solutions when re-training on new functions ("concept shift") or on a disjoint domain of the current function ("domain shift"). ANNs require each batch of data to be roughly representative of the complete distribution, a typically expensive and impractical requirement. In this paper, we introduce Functional Task Networks (FTNs), a method of continual learning and knowledge transfer modeled after several properties of the mammalian neocortex.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;In this paper, we introduce Functional Task Networks (FTNs), a method of continual learning and knowledge transfer modeled after several properties of the mammalian neocortex.&lt;/li&gt;&lt;li&gt;We show experimentally that under correlated concept shift, support-set mask reconfiguration is necessary even for retention.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; MNIST&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.11197</id>
+    <title>Dhara: Evidence-Oriented Retrieval for Indian Knowledge Systems</title>
+    <link href="https://arxiv.org/abs/2611.11197"/>
+    <updated>2026-11-10T08:48:52Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Relevant evidence in Indian Knowledge Systems (IKS) collections may be distributed across passages in different parts of a work, including verses, translations, and commentaries.&lt;/p&gt;&lt;p&gt;Relevant evidence in Indian Knowledge Systems (IKS) collections may be distributed across passages in different parts of a work, including verses, translations, and commentaries. Locating it requires matching natural-language questions and partially remembered verse fragments to source passages. We present Dhara, a retrieval engine combining hybrid search, chapter- and book-level Entity Notes (EN), Fuzzy Verse Retrieval (FVR), and neural reranking.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present Dhara, a retrieval engine combining hybrid search, chapter- and book-level Entity Notes (EN), Fuzzy Verse Retrieval (FVR), and neural reranking.&lt;/li&gt;&lt;li&gt;Adding EN to a direct branch with a matched candidate count improves nDCG@10 in all twelve categories with Qwen and ten with BGE; the combined ranking is capped at the same candidate count.&lt;/li&gt;&lt;li&gt;Qwen improves nDCG@10, Precision@5, and MRR@20 over BGE in every category, at approximately 6.72 times the overall estimated serial computation time.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.11053</id>
+    <title>Neural Activity Synchronization-Based Fast Local Learnable Spiking Neural Network Architecture</title>
+    <link href="https://arxiv.org/abs/2611.11053"/>
+    <updated>2026-11-10T08:48:52Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Implementing intelligent learning systems on low- power edge devices is challenging due to the high compu- tational complexity, training latency, and energy demands of traditional Artificial Neural Networks (ANNs).&lt;/p&gt;&lt;p&gt;Implementing intelligent learning systems on low- power edge devices is challenging due to the high compu- tational complexity, training latency, and energy demands of traditional Artificial Neural Networks (ANNs). Spiking Neural Networks (SNNs), biologically plausible and spike-driven, come as an alternative. However, SNN training commonly relies on backpropagation through time (BPTT), which is computationally expensive, inherently global, and unsuitable for battery-driven devices.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This work proposes a novel local learning framework for multi-layered SNNs inspired by Neural Activity Synchronization (NAS).&lt;/li&gt;&lt;li&gt;This significantly reduces computational complexity, training latency, and energy consumption.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; Fashion-MNIST, Three&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.11031</id>
+    <title>Hybrid Product Search Without the Copy: Lexical, Semantic and Filtered Retrieval Served Directly from a Data Lake</title>
+    <link href="https://arxiv.org/abs/2611.11031"/>
+    <updated>2026-11-10T08:48:52Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; E-commerce catalogs increasingly live in lakehouse tables: Apache Iceberg metadata over Parquet files in object storage.&lt;/p&gt;&lt;p&gt;E-commerce catalogs increasingly live in lakehouse tables: Apache Iceberg metadata over Parquet files in object storage. Product search, however, still runs on copies of that catalog, in a lexical engine and a vector database, each with its own ingestion pipeline, schema, staleness window and bill. We show that search applications can be hosted directly on the data lake, with the lakehouse table as the single system of record.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We show that search applications can be hosted directly on the data lake, with the lakehouse table as the single system of record.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; Amazon ESCI&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2611.09040</id>
     <title>MV-IVF: Multi-Vector Retrieval via Multi-Vector Clustering</title>
