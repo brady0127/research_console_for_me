@@ -4,7 +4,35 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-10T08:48:59Z</updated>
+  <updated>2026-11-11T08:21:05Z</updated>
+  <entry>
+    <id>arxiv:2611.14050</id>
+    <title>Ontology-Guided Knowledge Graph Construction and Robust Evidence Retrieval for Indian Knowledge Systems</title>
+    <link href="https://arxiv.org/abs/2611.14050"/>
+    <updated>2026-11-11T08:20:51Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Retrieving evidence from Indian Knowledge Systems is complicated by transliteration variants, ambiguous names, and relations distributed across passages.&lt;/p&gt;&lt;p&gt;Retrieving evidence from Indian Knowledge Systems is complicated by transliteration variants, ambiguous names, and relations distributed across passages. We present an ontology-guided knowledge graph (KG) pipeline that links typed entities and relations extracted with Qwen3-32B to original textual evidence. Retrieval combines sense-aware grounding, bounded graph traversal, lexical anchors, relationship-vector search, and passage reranking.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present an ontology-guided knowledge graph (KG) pipeline that links typed entities and relations extracted with Qwen3-32B to original textual evidence.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.13294</id>
+    <title>Function Inversion Reporting</title>
+    <link href="https://arxiv.org/abs/2611.13294"/>
+    <updated>2026-11-11T08:20:51Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; In the Function Inversion problem, the goal is to invert a function $f:[N] \to [N]$ in two phases.&lt;/p&gt;&lt;p&gt;In the Function Inversion problem, the goal is to invert a function $f:[N] \to [N]$ in two phases. In the preprocessing phase, the offline algorithm computes an advice string of length $S$ bits. In the online phase, the online algorithm receives the advice and a challenge $y \in [N]$, and the goal is to find a preimage $x \in [N]$ such that $f(x) = y$ in time $T$.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;In this paper, we study the Function Inversion Reporting problem in a systematic way by unifying and improving existing algorithms.&lt;/li&gt;&lt;li&gt;As a result, we obtain improved data structures for several problems including 3SUM-Indexing Reporting, Range Reporting, Approximate Nearest Neighbor, Jumbled Indexing Reporting, and Gapped String Indexing Reporting.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7225618028</id>
+    <title>AI Safety for AI Agents in Europe Part IV : Two Independent Checks and Endpoint-Side Reconstruction to Prevent Tool Misuse, Memory Poisoning, Unauthorized Delegation and Unlawful Data Use — Supporting EU AI Act Record-Keeping, Human Oversight and Cybersecurity, GDPR Purpose Limitation and DORA</title>
+    <link href="https://doi.org/10.5281/zenodo.24078177"/>
+    <updated>2026-11-11T08:20:51Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Abstract In most AI-agent and automation stacks, one component decides and a downstream component simply trusts that decision.&lt;/p&gt;&lt;p&gt;Abstract In most AI-agent and automation stacks, one component decides and a downstream component simply trusts that decision. A policy engine, gateway, classifier, trusted execution environment or approval step says yes. The tool, MCP server, database, cloud API or payment rail then carries out whatever request arrives with that approval.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This disclosure describes a two-instance execution-control architecture that removes the single point of trust: First check, at collection time.&lt;/li&gt;&lt;li&gt;A first protected domain binds inputs, instructions, provenance, purpose, jurisdiction, scope and permitted effect when the data arrives.&lt;/li&gt;&lt;li&gt;An input integrity gateway seals provenance first, so poisoned inputs are refused binding.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.13004</id>
+    <title>G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation</title>
+    <link href="https://arxiv.org/abs/2611.13004"/>
+    <updated>2026-11-11T08:20:51Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Discrete autoregressive models offer a scalable framework for image generation.&lt;/p&gt;&lt;p&gt;Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor.&lt;/li&gt;&lt;li&gt;Building on this principle, we propose GSTAR, a spatial--group co-scaling framework that enables \(32\times\) and even effective \(64\times\) compression while preserving strong reconstruction, understanding, and generation performance.&lt;/li&gt;&lt;li&gt;At \(1024\times1024\) resolution, our model delivers a \(20\times\) speedup over prior discrete autoregressive models, generating each image in 2.5 seconds on a single NVIDIA H200.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; ImageNet&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2611.12539</id>
     <title>Dynamic Graph Indexing for Label-Filtered Approximate Nearest Neighbor Search</title>
