@@ -4,7 +4,28 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-15T08:24:49Z</updated>
+  <updated>2026-11-16T08:33:19Z</updated>
+  <entry>
+    <id>openalex:W7226401138</id>
+    <title>An Adaptive ANN Indexing and Parameter-Tuning Framework for SLA-Constrained Retrieval-Augmented Generation (RAG) Microservices in Relational Vector Databases</title>
+    <link href="https://doi.org/10.5281/zenodo.24220224"/>
+    <updated>2026-11-16T08:33:13Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Enterprise Retrieval-Augmented Generation (RAG) architectures increasingly consolidate operational relational metadata and high-dimensional vector embeddings within unified relational database management systems…&lt;/p&gt;&lt;p&gt;Enterprise Retrieval-Augmented Generation (RAG) architectures increasingly consolidate operational relational metadata and high-dimensional vector embeddings within unified relational database management systems (RDBMSs) to eliminate cross-system synchronization latency and preserve transactional ACID guarantees. However, executing Approximate Nearest Neighbor (ANN) searches—specifically over Hierarchical Navigable Small World (HNSW) proximity graphs and Inverted File with Flat Compression (IVFFlat) partitions—inside stateless, multi-tenant RAG microservices exposes a severe multi-objective optimization bottleneck. Production retrieval pipelines must simultaneously satisfy strict 99th-percentile (p99) tail-latency Service Level Agreements (SLAs), operate within bounded relational shared-buffer memory pools, and guarantee high top-k semantic recall (Recall@k) under non-stationary query concurrency.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;First, we derive a closed-form page-fault and service-time cost model that couples relational 8-KB buffer page layouts, HNSW random-walk pointer locality, and IVFFlat sequential scan characteristics to select optimal offline index topologies without inducing…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.18516</id>
+    <title>StreamEmbed: Real-Time Indexing from Pixels for Screenshot Retrieval</title>
+    <link href="https://arxiv.org/abs/2611.18516"/>
+    <updated>2026-11-16T08:33:13Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Screen history can serve as searchable visual memory for people and agents, but unlike an offline corpus, it must be encoded and indexed as each screenshot arrives.&lt;/p&gt;&lt;p&gt;Screen history can serve as searchable visual memory for people and agents, but unlike an offline corpus, it must be encoded and indexed as each screenshot arrives. OCR-based indexing is fast but loses visual information; visual encoding takes over two seconds. Yet screens change incrementally: most pixels repeat within and across screenshots.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present StreamEmbed, a system for incremental visual embedding that exploits this redundancy.&lt;/li&gt;&lt;li&gt;On ScreenMemEval, our benchmark of 10,426 questions over 184 hours of screen histories from two humans and a computer-use agent, StreamEmbed sets a new accuracy-latency Pareto frontier on an M2 Pro GPU: it encodes up to 3.7x faster than full-screenshot…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>arxiv:2611.17726</id>
+    <title>Towards High-Performance Multimodal Discovery: Evaluating Retrieval Efficacy and Operational Scalability in Digital Libraries</title>
+    <link href="https://arxiv.org/abs/2611.17726"/>
+    <updated>2026-11-16T08:33:13Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Large-scale digital repositories with million plus digitized volumes serve as vital engines for scientific and scholarly discovery.&lt;/p&gt;&lt;p&gt;Large-scale digital repositories with million plus digitized volumes serve as vital engines for scientific and scholarly discovery. However, as collections grow, finding specific research or educational material remains a significant challenge. This difficulty is compounded by the multimodal nature of texts, that is, texts which combine dense narrative content with essential illustrative charts, annotated diagrams, and complex layouts.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Our findings demonstrate that integrating visual and textual features significantly enhances the discovery of relevant material, particularly in domains where diagrammatic content is essential for conceptual understanding.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; Summarization The&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2611.16516</id>
     <title>Authenticated Approximate Nearest Neighbor Search in Outsourced Vector Databases</title>
@@ -403,26 +424,5 @@
     <link href="https://doi.org/10.5281/zenodo.23549143"/>
     <updated>2026-10-30T07:42:53Z</updated>
     <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Background.&lt;/p&gt;&lt;p&gt;Background. Retrieval-augmented generation (RAG) sits inside many clinical artificial intelligence (AI) prototypes. A language model answers from documents a retrieval layer selects first.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A language model answers from documents a retrieval layer selects first.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>arxiv:2610.38404</id>
-    <title>CoWalk: Cooperative Walks for Agentic Batch Queries on Disk-Resident Graphs</title>
-    <link href="https://arxiv.org/abs/2610.38404"/>
-    <updated>2026-10-30T07:42:53Z</updated>
-    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Workloads such as query rewriting, deep research and group-relative policy optimization (GRPO) issue batches of semantically related vector queries.&lt;/p&gt;&lt;p&gt;Workloads such as query rewriting, deep research and group-relative policy optimization (GRPO) issue batches of semantically related vector queries. Existing disk-resident approximate nearest neighbor (ANN) systems process these queries independently. On three workloads, 31 to 67 percent of the I/Os of a batch fetch a page that another query of the batch has already fetched.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We present CoWalk, which runs the queries of a batch as cooperating walks on one thread.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>openalex:W7224092066</id>
-    <title>Family Four: Self-verifying vector and GPU retrieval substrate: Same data, same result, verifiable at every step: every index proves it was built from the database it serves.</title>
-    <link href="https://doi.org/10.5281/zenodo.23735137"/>
-    <updated>2026-10-30T07:42:53Z</updated>
-    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Same data, same result, verifiable at every step: every index proves it was built from the database it serves..&lt;/p&gt;&lt;p&gt;Same data, same result, verifiable at every step: every index proves it was built from the database it serves.. Methods and Systems for a Self-Verifying Deterministic Vector Index and GPU Retrieval Substrate Materialized From a Relational System of Record. U.S.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Methods and Systems for a Self-Verifying Deterministic Vector Index and GPU Retrieval Substrate Materialized From a Relational System of Record.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>openalex:W7224116120</id>
-    <title>Adaptive Digital Consciousness: An Evolutionary Framework for Human Identity Preservation Using Large Language Models</title>
-    <link href="https://doi.org/10.5281/zenodo.23724963"/>
-    <updated>2026-10-30T07:42:53Z</updated>
-    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Generative Artificial Intelligence (GenAI) and Large Language Models (LLMs) have greatly changed the interaction between man and machines through natural-language reasoning, content generation, personalization, and…&lt;/p&gt;&lt;p&gt;Generative Artificial Intelligence (GenAI) and Large Language Models (LLMs) have greatly changed the interaction between man and machines through natural-language reasoning, content generation, personalization, and interaction via agents. However, traditional LLM applications do not provide a unified mechanism for maintaining a long-term, structured, and identity-consistent representation of a person during long-time interaction. As shown in the recent studies of generative agents, long-term LLM memory, agentic memory, lifelong learning, and AI self-identity, these processes present essential capabilities that have been studied as separate components.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;However, traditional LLM applications do not provide a unified mechanism for maintaining a long-term, structured, and identity-consistent representation of a person during long-time interaction.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
   </entry>
 </feed>
