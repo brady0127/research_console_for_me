@@ -4,7 +4,14 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-18T09:05:19Z</updated>
+  <updated>2026-11-19T09:28:38Z</updated>
+  <entry>
+    <id>arxiv:2611.24557</id>
+    <title>The geometry of neural network decision boundaries</title>
+    <link href="https://arxiv.org/abs/2611.24557"/>
+    <updated>2026-11-19T09:28:04Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Artificial neural networks (ANNs) are built using well-understood mathematical operations, yet their complex nature poses significant challenges to intuitively understanding their decision-making processes.&lt;/p&gt;&lt;p&gt;Artificial neural networks (ANNs) are built using well-understood mathematical operations, yet their complex nature poses significant challenges to intuitively understanding their decision-making processes. This work introduces a method for visualizing and measuring ANN decision boundary geometry directly in the high-dimensional input space, avoiding distortions found with traditional projection-based techniques. We analyze boundary curvatures and distances in diverse inputs, architectures, and training methods.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Training methodology has a significantly stronger impact on boundary distance and curvature than architecture or test-set accuracy.&lt;/li&gt;&lt;li&gt;Our analytically and empirically supported methodology lays the foundation for future studies to improve network interpretability and understanding.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2611.22079</id>
     <title>SIMQ: A Single Graph-based Index for Multi-Vector Query</title>
@@ -417,12 +424,5 @@
     <link href="https://doi.org/10.5281/zenodo.23760253"/>
     <updated>2026-10-31T07:28:31Z</updated>
     <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; The increasing competition in the employment market has created significant challenges for students and job seekers in preparing effective resumes, identifying relevant skills, and performing effectively in interviews.&lt;/p&gt;&lt;p&gt;The increasing competition in the employment market has created significant challenges for students and job seekers in preparing effective resumes, identifying relevant skills, and performing effectively in interviews. Existing career-support systems commonly address individual tasks such as resume screening, job recommendation, or interview preparation, while providing limited integration and personalization. This paper proposes CareerPilot AI, an intelligent career assistance system that integrates resume analysis, Applicant Tracking System evaluation, job-description matching, skill-gap identification, AI-based mock interviews, response evaluation, and personalized learning-roadmap generation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Existing career-support systems commonly address individual tasks such as resume screening, job recommendation, or interview preparation, while providing limited integration and personalization.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>openalex:W7224499446</id>
-    <title>An Explainable Multi-Agent System for Real-Time SMS Smishing Detection with LangGraph Orchestration</title>
-    <link href="https://doi.org/10.5281/zenodo.23760241"/>
-    <updated>2026-10-31T07:28:31Z</updated>
-    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; SMS has become a target for cyberattacks.&lt;/p&gt;&lt;p&gt;SMS has become a target for cyberattacks. Users may get one-time passwords, transaction notifications, banking alerts and other service announcements.These messages can be quite familiar, urgent, making it difficult to determine fake messages, putting users at risk of being victims of smishing. Once successful, information and authentication credentials can be stolen from victims.Current defenses are typically designed with static rules or individual AI models.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;To solve these problems we introduce ScamShield AI.&lt;/li&gt;&lt;li&gt;The system first cleans messages and creates semantic embeddings for similarity-based threat detection.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
   </entry>
 </feed>
