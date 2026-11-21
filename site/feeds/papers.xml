@@ -4,7 +4,28 @@
   <title>Research Console - Papers</title>
   <link href="https://brady0127.github.io/research_console_for_me/"/>
   <link rel="self" href="https://brady0127.github.io/research_console_for_me/feeds/papers.xml"/>
-  <updated>2026-11-20T09:07:55Z</updated>
+  <updated>2026-11-21T08:44:05Z</updated>
+  <entry>
+    <id>openalex:W7236562644</id>
+    <title>AI-Powered GitHub Repository Reviewer and Developer Assistant: A Literature Review and Conceptual Framework</title>
+    <link href="https://doi.org/10.5281/zenodo.24372614"/>
+    <updated>2026-11-21T08:44:01Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; In this paper, there is going to be a literature review and a conceptual framework created for the AI-powered GitHub Repository Reviewer and Developer Assistant.&lt;/p&gt;&lt;p&gt;In this paper, there is going to be a literature review and a conceptual framework created for the AI-powered GitHub Repository Reviewer and Developer Assistant. In this work, it will be discussed how the use of LLMs, RAG, code embeddings, and AI agents can be beneficial for the analysis of large software repositories by developers. There is a review of literature related to automatic code review, repository-level bugs detection, AI-driven software engineering agents, code retrieval methods.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;In this work, it will be discussed how the use of LLMs, RAG, code embeddings, and AI agents can be beneficial for the analysis of large software repositories by developers.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7236709672</id>
+    <title>PREE AI: A Zero-Trust, Institution-Sovereign Architecture for Multilingual and Privacy-Preserving Educational Intelligence</title>
+    <link href="https://doi.org/10.5281/zenodo.24361211"/>
+    <updated>2026-11-21T08:44:01Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Educational AI systems increasingly combine conversational tutoring, learning analytics, and digital academic services.&lt;/p&gt;&lt;p&gt;Educational AI systems increasingly combine conversational tutoring, learning analytics, and digital academic services. Yet these capabilities are commonly designed as separate services, creating a fragmented trust model: student records may be centralized for analytics, generative answers may be weakly grounded in prescribed curricula, multilingual and code-mixed questions may be inconsistently interpreted, and academic eligibility checks may require disclosure of personal records. This paper proposes PREE AI (Predictive &amp;amp; Responsive Education Ecosystem), a zero-trust, institution-sovereign architecture that coordinates four complementary capabilities: (i) cross-silo federated learner-risk analytics with a differentially private training option; (ii) curriculum-constrained hybrid retrieval combining BM25 lexical ranking and FAISS dense-vector search through Reciprocal Rank Fusion; (iii) multilingual and code-mixed intent routing using an IndicBERT-based classifier; and (iv) Groth16 zero-knowledge proofs for selective verification of academic eligibility.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Yet these capabilities are commonly designed as separate services, creating a fragmented trust model: student records may be centralized for analytics, generative answers may be weakly grounded in prescribed curricula, multilingual and code-mixed questions…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>openalex:W7236599939</id>
+    <title>Algorithmic Surplus Extraction in B2A Commerce</title>
+    <link href="https://doi.org/10.5281/zenodo.24377973"/>
+    <updated>2026-11-21T08:44:01Z</updated>
+    <content type="html">&lt;p&gt;&lt;b&gt;[PP] Zenodo (CERN European Organization for Nuclear Research)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; As autonomous procurement agents increasingly negotiate commercial software and cloudinfrastructure contracts, Business-to-Agent (B2A) marketplaces face acute risks of algorithmic firstdegree price discrimination.&lt;/p&gt;&lt;p&gt;As autonomous procurement agents increasingly negotiate commercial software and cloudinfrastructure contracts, Business-to-Agent (B2A) marketplaces face acute risks of algorithmic firstdegree price discrimination. Across 297 multi-turn bilateral negotiations (N = 270 primary andrebuttal rounds; 27 screening rounds) for a standardized managed vector database cluster with aUSD 1,100 marginal cost floor, open bilateral negotiations yield a statistically significant 4.569x PriceDiscrimination Ratio (PDR), charging Enterprise agents a mean of USD 7,214.55 versus USD 1,579.17 forStudent agents (t = 5.403, p = 0.000023). Stripping explicit organizational identifiers(metadata_redaction ) reduces PDR to 1.427x (p = 0.1433) but leaves high Enterprise pricevariance (SD = USD 2,101.35) due to linguistic leakage of urgency and SLA requirements.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Across 297 multi-turn bilateral negotiations (N = 270 primary andrebuttal rounds; 27 screening rounds) for a standardized managed vector database cluster with aUSD 1,100 marginal cost floor, open bilateral negotiations yield a statistically significant 4.569x…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>arxiv:2611.25374</id>
     <title>Efficient Privacy-Preserving High-Dimensional Approximate Nearest Neighbor Search</title>
@@ -403,26 +424,5 @@
     <link href="https://arxiv.org/abs/2611.02237"/>
     <updated>2026-11-03T08:32:03Z</updated>
     <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; We develop nonreciprocal spherical attention as a mathematical framework for coarsening and compressed nearest-neighbor retrieval.&lt;/p&gt;&lt;p&gt;We develop nonreciprocal spherical attention as a mathematical framework for coarsening and compressed nearest-neighbor retrieval. For two shrinking acute blocks whose centers have zero skew pairing and whose total mass ratio is subexponential in inverse temperature, we prove $\lim_{β\to\infty}β^{-1}\log T_β=1-\cosφ$, without restricting particle-count growth. An explicit three-body flow has two rigorously separated metastable exponents.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;For two shrinking acute blocks whose centers have zero skew pairing and whose total mass ratio is subexponential in inverse temperature, we prove $\lim_{β\to\infty}β^{-1}\log T_β=1-\cosφ$, without restricting particle-count growth.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; ANN-Benchmarks&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>arxiv:2611.00786</id>
-    <title>The Tangled Web They Weave: Exploring Neural Representations with Directed Simplicial Complexes</title>
-    <link href="https://arxiv.org/abs/2611.00786"/>
-    <updated>2026-11-03T08:32:03Z</updated>
-    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Understanding how artificial neural networks (ANNs) represent and combine features internally is a central challenge in mechanistic interpretability.&lt;/p&gt;&lt;p&gt;Understanding how artificial neural networks (ANNs) represent and combine features internally is a central challenge in mechanistic interpretability. Existing neural circuit-discovery methods represent neuron interactions as pairwise edges in a graph. But distributed neural representations consist of large groups of neurons that are inherently linked by higher-order causal dependencies: suppressing a subgroup of neurons in concert may shift the activation of other neurons in the feature representation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;We propose a method to construct filtered directed simplicial complexes (DSCs) that give a topological representation of such dependencies, built from the activation profiles of an ANN on a given set of inputs.&lt;/li&gt;&lt;li&gt;Our approach treats ANNs as structural causal models and uses counterfactual ablations to test for causal links between groups of internal neurons within specific input contexts.&lt;/li&gt;&lt;li&gt;As validation, we compare our method with graph-based circuit-discovery baselines and find that their 1-skeletons agree within the relations that a weight graph can represent.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>arxiv:2610.42075</id>
-    <title>Implicit Additively Weighted Geodesic Voronoi Diagrams and Applications</title>
-    <link href="https://arxiv.org/abs/2610.42075"/>
-    <updated>2026-11-02T08:13:44Z</updated>
-    <content type="html">&lt;p&gt;&lt;b&gt;[T1] SODA 2027&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Let $P$ be a simple polygon with $m$ vertices.&lt;/p&gt;&lt;p&gt;Let $P$ be a simple polygon with $m$ vertices. After $O(m)$-time preprocessing of $P$, for any set $S$ of $n$ additively weighted point sites, we compute an implicit additively weighted geodesic Voronoi diagram in $O(n\log n+n\log^2 m)$ time, supporting nearest-neighbor queries in $O(\log(n+m))$ time. In contrast, explicitly constructing the diagram requires $Ω(m)$ time.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Our algorithm introduces a new sweep-line paradigm that avoids explicitly constructing the diagram, together with a novel technique for point location in implicit subdivisions.&lt;/li&gt;&lt;li&gt;As applications, we obtain new dynamic data structures for additively weighted geodesic nearest-neighbor searching and the first efficient algorithms for shortest paths in geodesic disk graphs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; n/a&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>arxiv:2610.41407</id>
-    <title>Fidelity Synopses: Pre-Execution Plan Selection for Approximate Vector Search</title>
-    <link href="https://arxiv.org/abs/2610.41407"/>
-    <updated>2026-11-02T08:13:44Z</updated>
-    <content type="html">&lt;p&gt;&lt;b&gt;[PP] arXiv preprint&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;TL;DR&lt;/b&gt; Vector search has become a database operator with many physical implementations: different index families, build-time and search-time parameters, and compressed or disk-resident variants.&lt;/p&gt;&lt;p&gt;Vector search has become a database operator with many physical implementations: different index families, build-time and search-time parameters, and compressed or disk-resident variants. Each trades cost against fidelity, the fraction of a query's exact top-k nearest neighbors that a configuration returns. Deployments nevertheless choose one configuration offline and use it for every query, so they are sized for their hardest queries and overpay for the rest.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Relational optimizers solve the analogous problem for cardinality with offline synopses; we propose one for vector search.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Datasets:&lt;/b&gt; LAION&lt;/p&gt;</content>
   </entry>
 </feed>
